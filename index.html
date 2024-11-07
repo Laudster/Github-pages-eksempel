@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Eksempel side </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-markup.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title> Bruksanvisning </title>
 </head>
 <body>
-    <h1> Nettside </h1>
+    <h1> Hvordan hoste en nettside med github-pages </h1>
 
-    <h3> Dette er bare et eksempel </h3>
+    <h3> Gjennom denne guiden skal jeg vise hvordan du kan hoste din egen nettside gratis ved hjelp av github pages.  </h3>
+
+    <h3> Dette skal være nettsiden jeg skal hoste: </h3>
+
+    
+    <pre> <code class="language-markup">
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+        &lt;head&gt;
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt; Eksempel side &lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt; Nettside &lt;/h1&gt;
+        
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;h3&gt; Dette er bare et eksempel &lt;/h3&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </code> </pre>
+    <br>
+
+    <h3> Det er viktig at du gir filen din navnet index.html. Når du laster det opp på github vil det fortelle github at det er startsiden.</h3>
+
+    <h3> Nå må du gå til <a href="https://github.com/new" target="_blank">Github</a> og lage et nytt repository. Så må du laste opp nettsiden din. </h3>
+
+    <h3> Etter det må du gå over til settings, og så videre over til pages. </h3>
+
+    <img src="settings.png" width="50%">
+
+    <h3> Deretter må du endre branch fra None til Main, og så er det viktig du husker å trykke save. </h3>
+
+    <img src="pages.png" width="50%">
+
+    <h3> Om du går over til Actions kan se at Github gjør klar nettsiden din. </h3>
+
+    <img src="actions.png" width="50%">
+
+    <h3> Etter litt tid vil den bli ferdig og du kan trykke på den og få opp en lenke til nettsiden din. </h3>
+    <img src="build.png" width="50%">
 </body>
 </html>
